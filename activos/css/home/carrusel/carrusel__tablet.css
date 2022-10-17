@@ -1,0 +1,18 @@
+.carrusel__tablet {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .carrusel__tablet {
+        display: flex;
+        align-self: center;
+        margin-bottom: 1em;
+        box-shadow: 2px 2px 2px 1px rgba(187, 185, 185, 1);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carrusel__tablet{
+        display: none;
+    }
+}

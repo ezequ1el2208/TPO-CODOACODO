@@ -1,0 +1,23 @@
+.contacto__error {
+    display: none;
+  }
+
+  .contacto__invalido {
+    margin-bottom: 0.5em;
+  }
+  
+  .contacto__invalido .contacto__input {
+    border: 1px solid #df2525;
+    border-radius: 7px;
+  }
+  
+  .contacto__invalido .contacto__input__label {
+    color: #df2525;
+  }
+
+  .contacto__invalido .contacto__error {
+    color: #df2525;
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+  }

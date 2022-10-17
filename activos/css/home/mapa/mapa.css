@@ -1,0 +1,9 @@
+.mapa {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 2em 0;
+    max-width: 1200px;
+}
+
+

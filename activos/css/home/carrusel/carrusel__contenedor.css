@@ -1,0 +1,25 @@
+.carrusel__contenedor{
+    width: 50%;
+    max-width: 1200px;
+    padding: 1em;
+    margin: 0 0 50px 100px;
+    overflow-x: hidden;
+    border: 2px solid rgba(187, 185, 185, 1);
+    border-radius: 20px;
+    box-shadow: 15px 15px 2px 1px rgba(187, 185, 185, 1);
+}
+
+@media screen and (max-width: 992px) {
+    .carrusel__contenedor{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carrusel__contenedor{
+       display: contents;
+       display: flex;
+       flex-direction: column;
+    }
+    
+}

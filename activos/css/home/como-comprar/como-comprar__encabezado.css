@@ -1,0 +1,14 @@
+.como-comprar__encabezado{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+    .como-comprar__encabezado{
+       margin: 0.5em 0 0.5em 0;
+    }
+}

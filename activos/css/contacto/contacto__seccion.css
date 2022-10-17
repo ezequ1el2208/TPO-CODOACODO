@@ -1,0 +1,15 @@
+.contacto__seccion{
+    background-color: rgb(250, 231, 226);
+    margin: 2em;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    padding: 1.5em;
+}
+
+.contacto__seccion__concluida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

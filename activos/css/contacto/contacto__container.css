@@ -1,0 +1,15 @@
+.contacto__container{
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.contacto__container__mensaje{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}

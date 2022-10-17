@@ -1,0 +1,17 @@
+.nosotros__parrafo{
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 1em 2em 1em;
+    letter-spacing: 0.1em;
+}
+
+.nosotros__parrafo__completo{
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 1em 0 1em;
+    letter-spacing: 0.1em;
+}

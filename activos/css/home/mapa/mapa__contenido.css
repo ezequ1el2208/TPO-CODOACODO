@@ -1,0 +1,17 @@
+.mapa__contenido {
+    margin: 3em auto;
+    align-self: center;
+    width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+    .mapa__contenido{
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .mapa__contenido{
+        width: auto;
+    }
+}

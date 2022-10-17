@@ -1,0 +1,27 @@
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+   
+}
+
+@media screen and (min-width:600px) {
+    .carrusel {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carrusel {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carrusel {
+        flex-direction: row;
+        margin-top: 1em;
+    }
+}

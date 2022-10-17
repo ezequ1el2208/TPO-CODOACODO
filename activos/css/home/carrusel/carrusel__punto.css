@@ -1,0 +1,12 @@
+.carrusel__punto{
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    border-radius: 20px;
+    border: 2px solid rgba(187, 185, 185, 1);
+    box-shadow: 2px 2px 2px 1px rgba(187, 185, 185, 1);
+}
+.activo{
+    background-color: rgb(9, 131, 15);
+    border: 2px solid rgba(187, 185, 185, 1);
+}

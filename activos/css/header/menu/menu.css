@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(46, 45, 45);
+        padding: 0.5em 1.5em 0 0;
+        opacity: 0.8;
+        color: #ffffff;
+        font-size: 1.4em;
+        z-index: 9998;
+    }
+    .menu.visible{
+        display: block;
+    }
+}

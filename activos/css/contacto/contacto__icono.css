@@ -1,0 +1,9 @@
+.contacto__icono{
+    display: block;
+    width: 3.5em;
+    height: 3.5em;
+    margin-bottom: 1em;
+    background-image: url(../../imagenes/contacto/aprobado.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,27 @@
+
+    .banner__imagen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../../imagenes/home/banner__home.jpg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        max-width: 1200px;
+    }
+
+
+@media screen and (max-width: 992px) {
+    .banner__imagen{
+        height: calc(100vh - 160px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner__imagen{
+        height: calc(100vh - 120px);
+    }
+}
+

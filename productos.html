@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="activos/css/base.css">
+    <link rel="stylesheet" href="activos/css/reset.css">
+    <link rel="stylesheet" href="activos/css/header/header.css">
+    <link rel="stylesheet" href="activos/css/header/header__logo.css">
+    <link rel="stylesheet" href="activos/css/header/header__contenedor.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu__hamb.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu__abrir.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu__cerrar.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu__lista.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu__item.css">
+    <link rel="stylesheet" href="activos/css/header/menu/menu__link.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__contenedor.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__lista.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__encabezado.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__titulo.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__parrafo.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__descripcion.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__btn.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__imagen.css">
+    <link rel="stylesheet" href="activos/css/productos/planes/planes__precio.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/receta__boton.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/receta__contenido.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/receta__descripcion.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/receta__imagen.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/receta__titulo.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/recetas.css">
+    <link rel="stylesheet" href="activos/css/productos/recetas/receta.css">
+    <link rel="stylesheet" href="activos/css/footer/footer.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__contenedor.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__contacto.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__datos.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__copyright.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__logo.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__redes.css">
+    <link rel="stylesheet" href="activos/css/footer/footer__terminos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="activos/imagenes/favicon.ico" type="image/x-icon">
+    <title>Productos - Panda's Food</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <img class="header__logo" src="activos/imagenes/logo.png" alt="logo">
+            <button id="menu__hamb">
+                <span id="menu__abrir">&#9776;</span>
+                <span id="menu__cerrar">X</span>
+            </button>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="nosotros.html">NOSOTROS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="productos.html">PRODUCTOS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="planes__encabezado">
+            <h2 class="planes__titulo">Seleccioná tu plan</h2>
+            <p class="planes__parrafo">La manera conveniente de preparar comidas ricas y sanas a base de plantas que te van a dejar con ganas de
+                más</p>
+        </div>
+        <div class="planes__contenedor">
+            <ul>
+                <li class="planes__lista">
+                    <h2 class="planes__descripcion">2 recetas por semana de 2 porciones</h2>
+                    <img src="activos/imagenes/productos/planes/1240696.png" alt="Plan1" class="planes__imagen">
+                    <p class="#">Ideal para incorporar comidas plant-based</p>
+                    <p class="planes__precio">$4000</p>
+                    <button class="planes__btn">Seleccioná este plan</button>
+                </li>
+                <li class="planes__lista">
+                    <h2 class="planes__descripcion">3 recetas por semana de 2 porciones</h2>
+                    <img src="activos/imagenes/productos/planes/1249484.png" alt="Plan2" class="planes__imagen">
+                    <p class="#">Ideal para quienes viven solos o para parejas</p>
+                    <p class="planes__precio">$5500</p>
+                    <button class="planes__btn">Seleccioná este plan</button>
+                </li>
+                <li class="planes__lista">
+                    <h2 class="planes__descripcion">2 recetas por semana de 4 porciones</h2>
+                    <img src="activos/imagenes/productos/planes/1249656.png" alt="Plan3" class="planes__imagen">
+                    <p class="#">Perfecto para familias o ideal para meal prep</p>
+                    <p class="planes__precio">$7000</p>
+                    <button class="planes__btn">Seleccioná este plan</button>
+                </li>
+            </ul>
+        </div>
+
+        <section class="recetas">
+            <div class="receta">
+                <img alt="mac-n-cheese-cavatappi" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/mac-n-cheese-cavatappi.webp" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Mac n Cheese Cavatappi</h4>
+                    <p class="receta__descripcion">Con morrón rostizado y especias</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="shakshuka-israeli" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/shakshuka-israeli.webp" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Shakshuka Israelí</h4>
+                    <p class="receta__descripcion">Con kale y salsa de tahini</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="pie-pollo-vegetal" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/pie-pollo-vegetal.webp" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Pie de pollo vegetal</h4>
+                    <p class="receta__descripcion">Con topping de papa y arvejas</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="desayuno-smoothie-tropical" class="receta__imagen"
+                    src="./activos/imagenes/productos/recetas/desayuno-smoothie-tropical-300x200.jpeg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Desayuno: Smoothie Tropical</h4>
+                    <p class="receta__descripcion">Con manzana, naranja y frutilla</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="bowl-rostizado-de-cebada" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/bowl-rostizado-de-cebada-300x200.jpeg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Bowl Rostizado de Cebada</h4>
+                    <p class="receta__descripcion">Con aderezo de tahini y batata asada</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="one-pot-pasta-de-morron-asado" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/one-pot-pasta-de-morron-asado-300x200.webp" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">One Pot Pasta de Morrón Asado ¡Sin picar ni cortar!</h4>
+                    <p class="receta__descripcion">Con tomate, ajo asado y crema</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="curry-de-garbanzo" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/curry-de-garbanzo-¡facil-y-delicioso-300x200.webp" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Curry de garbanzo ¡Fácil y delicioso!</h4>
+                    <p class="receta__descripcion">Con leche de coco, garam masala y arroz basmati</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="tabule-de-vegetales" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/tabule-de-vegetales-300x300.webp" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Tabulé nutritivo de calabaza</h4>
+                    <p class="receta__descripcion">Con vegetales frescos y Ras el hanout</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="budin-de-banana" class="receta__imagen"
+                    src="activos/imagenes/productos/recetas/budin-de-banana-300x200.jpeg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Postre: Budín extra delicioso de banana</h4>
+                    <p class="receta__descripcion">Con cacao amargo, azúcar mascabo y coco rallado</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__logo">
+                <img class="footer__logo__imagen" src="activos/imagenes/logo.png" alt="logo">
+            </div>
+            <div class="footer__contacto">
+                <h3>Contacto:</h3>
+            </div>
+            <div class="footer__datos">
+                <p>Direccion: Obelisco. CABA</p>
+                <p>Teléfono: (011) 2147-7611 ó (011) 2109-9447</p>
+                <p>Mail: ventas@pandasfood.com</p>
+                <p>Horarios: Lunes a Viernes de 08 a 20 hs.</p>
+                <p><a class="footer__terminos" href="terminos-y-condiciones.html">Términos y condiciones</a></p>
+            </div>
+        </div>
+        <div class="footer__redes">
+            <a href="#"><img class="icono" src="activos/imagenes/Redes Sociales/2111463.png" alt="instagram"></a>
+            <a href="#"><img class="icono" src="activos/imagenes/Redes Sociales/3046121.png" alt="tik-tok"></a>
+        </div>
+        <div class="footer__copyright">
+            <p>&copy Copyright Panda's Food - 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.menu__item {
+    display: inline;
+    margin-left: 1em; 
+}
+
+@media screen and (max-width: 600px) {
+    .menu__item {
+        display: block;
+        text-align: right;
+        margin-bottom: 1em;
+    }
+}

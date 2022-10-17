@@ -1,0 +1,10 @@
+.planes__btn{
+    font-size: 15px;
+    align-self: center;
+    background: rgb(9, 131, 15);
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 0.5em;
+    margin-top: 1em;
+}

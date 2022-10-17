@@ -1,0 +1,25 @@
+.como-comprar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    justify-content: space-around;
+    max-width: 1200px;
+}
+@media screen and (max-width: 600px) {
+    .como-comprar {
+        flex-direction: column;
+        margin: 0 0 3em 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .como-comprar{
+        margin: 1em 0 1em 0;
+    }
+}
+@media screen and (min-width: 992px) {
+    .como-comprar{
+        margin-bottom: 3em;
+    }
+    
+}

@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 100%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
+}

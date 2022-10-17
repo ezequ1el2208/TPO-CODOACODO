@@ -1,0 +1,21 @@
+.planes__lista{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.planes__lista:hover {
+    border-color: rgb(9, 131, 15);
+}
+.planes__lista:active {
+    border-color: orange;
+}
+.planes__lista:hover h2 {
+    font-size: 25px;
+}

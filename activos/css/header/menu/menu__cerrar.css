@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+    #menu__cerrar{
+        display: none;
+    }
+
+    #menu__hamb.salir #menu__cerrar{
+        display: block;
+    }
+    
+}

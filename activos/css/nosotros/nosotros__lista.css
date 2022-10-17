@@ -1,0 +1,16 @@
+.nosotros__lista{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.nosotros__lista__reversa{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1em;
+}
+
+.nosotros__lista__completa{
+    display: flex;
+    flex-direction: column;
+}

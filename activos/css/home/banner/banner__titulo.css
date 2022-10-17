@@ -1,0 +1,20 @@
+.banner__titulo{
+    font-size: 8em; 
+    color: #fdfdfd;
+    font-family: 'Pacifico';
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1); 
+    width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+    .banner__titulo{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner__titulo{
+        font-size: 3em;
+    }
+}

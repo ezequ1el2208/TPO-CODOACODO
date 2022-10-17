@@ -1,0 +1,9 @@
+.terminos__contenedor{
+    font-family: 'Montserrat';
+    margin: 0 3em;
+    text-align: justify;
+}
+
+.terminos__contenedor p{
+    margin-bottom: 1em;
+}

@@ -1,0 +1,8 @@
+.receta__contenido{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    padding: 1em;
+    justify-content: space-between;
+    min-height: 180px;
+}

@@ -1,0 +1,10 @@
+.como-comprar__imagen{
+    align-self: center;
+    max-width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    .como-comprar__imagen{
+        width: 90%;
+    }
+}

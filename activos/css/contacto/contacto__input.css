@@ -1,0 +1,26 @@
+.contacto__input {
+    box-sizing: border-box;
+    border-bottom: 1px solid #d6eaff;
+    padding: 1.3em 0.5em 0.5em;
+    height: 3em;
+}
+
+.contacto__input__mensaje {
+    resize: none;
+}
+
+.contacto__input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.contacto__input:focus {
+    outline: none;
+}
+
+.contacto__input:not(:placeholder-shown) + .contacto__input__label,
+.contacto__input:focus + .contacto__input__label {
+    font-size: 0.875em;
+    top: 0.25em;
+    transition: all 0.25s;
+}

@@ -1,0 +1,10 @@
+.footer__logo {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+   
+}
+
+.footer__logo__imagen {
+    width: 50%;
+}

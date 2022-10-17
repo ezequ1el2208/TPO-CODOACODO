@@ -1,0 +1,9 @@
+.footer__redes{
+    display: flex;
+    justify-content: center;
+}
+
+.icono{
+    max-width: 30px;
+    margin: 0 .5em .5em 0;
+}

@@ -1,0 +1,28 @@
+.como-comprar__titulo{
+    display: flex;
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    text-align: center;
+    max-width: 91px;
+}
+
+@media screen and (max-width: 600px) {
+    .como-comprar__titulo{
+        margin: 1em 0 1em 0;
+        font-size: 1.5em;
+        max-width: 140px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .como-comprar__titulo{
+        font-size: 1.6em;
+    }
+}
+@media screen and (min-width: 992px) {
+    .como-comprar__titulo{
+        font-size: 1em
+    }
+    
+}

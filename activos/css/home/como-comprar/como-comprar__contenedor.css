@@ -1,0 +1,11 @@
+.como-comprar__contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .como-comprar__contenedor{
+        flex-direction: column;
+    }
+}

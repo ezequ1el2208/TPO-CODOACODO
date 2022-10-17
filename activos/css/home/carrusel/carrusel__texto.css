@@ -1,0 +1,6 @@
+.carrusel__texto{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+

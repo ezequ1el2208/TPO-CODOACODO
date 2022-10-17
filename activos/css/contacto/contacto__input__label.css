@@ -1,0 +1,12 @@
+.contacto__input__label {
+  position: absolute;
+  top: 1em;
+  left: 0.5em;
+  font-size: 20px;
+  transition: all 0.25s;
+}
+
+.contacto__input__label__mensaje{
+  font-size: 20px;
+  margin-bottom: .5em;
+}

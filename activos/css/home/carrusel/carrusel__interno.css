@@ -1,0 +1,11 @@
+.carrusel__interno{
+    width: 200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    transition: all .5s ease;
+    border-radius: 20px; 
+
+}

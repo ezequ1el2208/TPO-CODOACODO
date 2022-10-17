@@ -1,0 +1,24 @@
+.carrusel__btn{
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(9, 131, 15);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    box-shadow: 2px 2px 2px 1px rgba(187, 185, 185, 1);
+    margin: 0 .5em 0 0;
+
+}
+
+.carrusel__btn:hover {
+    background: rgb(6, 87, 10);
+    transform: scale(1.4);
+}
+
+.carrusel__link{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.carrusel__imagen{
+    width: calc(100%/2 - 3em);
+    min-height: 10vh;
+    border: 2px solid rgba(187, 185, 185, 1);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(187, 185, 185, 1);
+}
+
+

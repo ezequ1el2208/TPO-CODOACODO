@@ -1,0 +1,13 @@
+.nosotros__imagen{
+    max-width: 300px;
+    margin-right: 1em;
+    
+}
+.nosotros__imagen__reversa{
+    max-width: 300px;
+    margin-left: 1em;
+}
+.nosotros__imagen__completa{
+    max-width: 1200px;
+    
+}

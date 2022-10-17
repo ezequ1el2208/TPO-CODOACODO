@@ -1,0 +1,19 @@
+.header__contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .header__contenedor{
+        flex-direction: column;
+        margin: 1em 0 1em 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header__contenedor{
+        flex-direction: row;
+    }
+}
